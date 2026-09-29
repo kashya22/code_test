@@ -8,6 +8,10 @@ for n in numbers:
     print(f"Processing value: {n}")
     time.sleep(1)
 
+    if n == 0:
+        print("Error: division by zero prevented")
+        continue
+
     result = 100 / n
 
     print(f"Result: {result}")
