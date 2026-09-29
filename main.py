@@ -8,7 +8,9 @@ for n in numbers:
     print(f"Processing value: {n}")
     time.sleep(1)
 
-
+    if n == 0:
+        print("Result: Division by zero avoided")
+        continue
 
     result = 100 / n
 
